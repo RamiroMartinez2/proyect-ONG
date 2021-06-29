@@ -20,7 +20,7 @@ export const PublicNews = () => {
         setLoading(true);
         setUpdate(false);
       })
-      .catch(() => alert("Error al cargar novedades"));
+      .catch(() =>console.log("Error al cargar novedades"));
   }, [update]);
 
   return (
