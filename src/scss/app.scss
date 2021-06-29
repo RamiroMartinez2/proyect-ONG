@@ -1,0 +1,23 @@
+.prueba {
+    background-color: red;
+}
+
+.nav-link > ul {
+    display: none;
+    position: absolute;
+}
+
+.nav-link:hover ul {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #9AC9FB;
+    list-style:none;
+    color: white;
+    flex-direction: column;
+    z-index: 999;
+    padding: 10px;
+}
+
+.nav-link:hover ul > li {
+    margin-top: 10px;
+}
